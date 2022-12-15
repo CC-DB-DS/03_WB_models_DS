@@ -26,7 +26,7 @@ INSERT INTO `mydb`.`products` (`id`, `product_name`, `product_price`) VALUES (DE
 INSERT INTO `mydb`.`products` (`id`, `product_name`, `product_price`) VALUES (DEFAULT, "Trocken", 0.50);
 
 
--- pruchase
+-- purchase
 CREATE TABLE IF NOT EXISTS `mydb`.`purchases` (
   `servants_id` INT NOT NULL,
   `products_id` INT NOT NULL,
