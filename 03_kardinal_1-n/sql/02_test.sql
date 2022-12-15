@@ -1,3 +1,6 @@
+DROP DATABASE if EXISTS mydb;
+CREATE DATABASE IF NOT EXISTS mydb;
+
 CREATE TABLE IF NOT EXISTS `mydb`.`cats` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `cat_name` VARCHAR(45) NOT NULL,
@@ -26,7 +29,7 @@ ENGINE = InnoDB;
 
 INSERT INTO `mydb`.`kittens` (`id`, `kitten_name`, `fur_color`, `cats_id`) VALUES (DEFAULT, "Tigerchen", "weiß", 1);
 INSERT INTO `mydb`.`kittens` (`id`, `kitten_name`, `fur_color`, `cats_id`) VALUES (DEFAULT, "Entchen", "grau", 1);
-INSERT INTO `mydb`.`kittens` (`id`, `kitten_name`, `fur_color`, `cats_id`) VALUES (DEFAULT, "Berserker", "weiß", 1);
+INSERT INTO `mydb`.`kittens` (`id`, `kitten_name`, `fur_color`, `cats_id`) VALUES (DEFAULT, "Berserker", "weiß", 2);
 
 select * from mydb.kittens;
 select * from mydb.cats;
