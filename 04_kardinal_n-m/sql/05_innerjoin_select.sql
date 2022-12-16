@@ -22,7 +22,7 @@ INNER JOIN mydb.products ON mydb.products.id = mydb.purchases.products_id
 WHERE servant_name = "Daniel"
 ;
 
--- Wer hat das Rind bekommen?
+-- Wer hat den Lachs bekommen?
 SELECT 
 	cat_name AS Katze,
     product_name AS "Produkte"

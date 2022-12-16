@@ -124,7 +124,7 @@ ENGINE = InnoDB;
  
 
 -- Products: Inserts (Kaufprozesse : Käufer - Produkt)
-INSERT INTO `mydb`.`purchases` (`servants_id`, `products_id`) VALUES (1, 2);
+INSERT INTO `mydb`.`purchases` (`servants_id`, `products_id`) VALUES (1, 1);
 INSERT INTO `mydb`.`purchases` (`servants_id`, `products_id`) VALUES (1, 3);
 INSERT INTO `mydb`.`purchases` (`servants_id`, `products_id`) VALUES (2, 1);
 INSERT INTO `mydb`.`purchases` (`servants_id`, `products_id`) VALUES (2, 2);
